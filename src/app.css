@@ -1,0 +1,17 @@
+.drawer-enter-active{
+    transition: opacity 200ms;
+    opacity: 1;
+}
+
+.drawer-enter {
+    opacity: 0;
+  }
+ 
+  .drawer-exit {
+    opacity: 1;
+  }
+  .drawer-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+

@@ -1,0 +1,138 @@
+.contact-form{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.form-wrapper{
+    width: 38%;
+    height: auto;
+    border: 1px solid gray;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.contact-header{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    height: 70px;
+    
+    align-items: center;
+    background-color: white;
+}
+
+.contact-header .font-wrapper{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #228B22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+   
+
+}
+
+.font-wrapper .contact-font{
+    color: white;
+    font-size: 20px;
+}
+
+.contact-header p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.contact-form-control{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.contact-form-control input, textarea{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    transition: border 300ms linear;
+    padding-left: 5px;
+}
+
+.contact-form-control input:focus, textarea:focus{
+    border: 2px solid #228B22;
+}
+
+.contact-form-control textarea{
+    height: 120px;
+}
+
+.contact-form-control input::placeholder, textarea::placeholder{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.contact-form-control .form-submit{
+    font-weight: 800;
+    background-color: #228B22;
+   font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+
+.form-error{
+    color: rgb(209, 17, 17);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error-text{
+    display: inline-block;
+    margin-bottom: 15px;
+   
+}
+
+.server-error{
+  
+    color: rgb(197, 36, 36);
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .form-wrapper{
+        width: 85%;
+        margin-top: 70px;
+
+    }
+
+    .contact-form-control{
+        width: 100%;
+    }
+
+    .contact-header p{
+        font-size: 13px;
+    }
+}
+

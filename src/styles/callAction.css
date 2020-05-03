@@ -1,0 +1,55 @@
+.action-wrapper{
+    width: 100vw;
+    height: 250px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image:url('../assets//mainPage/start.jpg')
+
+}
+
+.action-wrapper ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.action-header{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    
+  
+}
+
+.action-sub-header{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+
+.action-button{
+   background-color: #228B22;
+   padding: 15px;
+   color: white;
+   border-radius: 5px;
+   font-weight: 800;
+   text-decoration: none;
+
+}
+
+
+

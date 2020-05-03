@@ -1,0 +1,14 @@
+.category-item-list{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+    .category-item-list{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+}

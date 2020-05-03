@@ -1,0 +1,24 @@
+.side-list{
+    width: 35%;
+}
+
+.side-list .side-name{
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bar-list{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .side-list{
+        visibility: hidden;
+        width: 0%;
+    }
+}

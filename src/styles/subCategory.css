@@ -1,0 +1,86 @@
+.sub-category{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    min-height: 90vh;
+}
+
+.sub-category .link-directory{
+    display: flex;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+  
+}
+
+.back-link, .directory-font{
+    margin-right: 9px;
+    text-decoration: none;
+    color: gray;
+}
+
+.back-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sub-name{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-descript{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    color: gray;
+}
+
+.price-time-billing{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 25px;
+
+}
+.starting-price, .delivery-time, .contact-quote{
+    height: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contact-quote{
+    background-color: #228B22;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 700px){
+    .link-directory{
+        margin-top: 38px;
+    }
+
+    .price-time-billing{
+        margin-top: 20px;
+    }
+
+    .price-time-billing{
+        width: 100%;
+    }
+    .starting-price, .delivery-time, .contact-quote{
+        font-size: 11px;
+        margin-right: 9px;
+        text-align: center;
+    }
+}
+
+
+
+

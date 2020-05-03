@@ -1,0 +1,46 @@
+.assurances{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+.assurance{
+    width: 30%;
+    color: rgb(78, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.assurance-header{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+.assurance p{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .assurances{
+        width: 97%;
+        height: 180px;
+    }
+
+    .assurance p{
+        font-size: 11px;
+    }
+
+    .assurance-header{
+        font-size: 14px;
+    }
+}
+

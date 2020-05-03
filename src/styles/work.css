@@ -1,0 +1,57 @@
+.works-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.work-card{
+    width: 27%;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transform: scale(0.97);
+    transition: transform 300ms ease-in-out;
+}
+
+.work-card:hover{
+    transform: scale(1);
+}
+
+.work-image-wrapper{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+.work-image{
+    width: 100%;
+    height: 100%;
+}
+
+.works-starting-price{
+    display: flex;
+    width: 98%;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(71, 67, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+    .works-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .work-card{
+        width: 85%;
+        height: 200px;
+        transform: scale(1);
+    }
+}

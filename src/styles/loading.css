@@ -1,0 +1,10 @@
+.process-loader{
+   width: 70%;
+    background-color: #228B22;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+  
+}

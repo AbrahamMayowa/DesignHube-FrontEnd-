@@ -1,0 +1,51 @@
+.category{
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.name-descript-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.name-descript-text .name{
+    font-size: 22px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name-descript-text .descript-text{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-list{
+    width: 90%;
+    display: flex;
+}
+
+.client-assurance{
+    width: 100%;
+    background-color: rgb(243, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .name-descript-text{
+        margin-top: 70px;
+    }
+    .sub-list{
+        width: 100%;
+        justify-content: center;
+    }
+}
