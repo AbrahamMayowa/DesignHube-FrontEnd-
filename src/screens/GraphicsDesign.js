@@ -3,35 +3,36 @@ import React, {useState} from 'react'
 import Category from '../reusableScreens/Category'
 import {withRouter} from 'react-router-dom'
 
+
 //business card here
-import b1 from '../assets/files/graphics_and_design/business_card/b1.jpg'
-import b2 from '../assets/files/graphics_and_design/business_card/b2.jpg'
-import b3 from '../assets/files/graphics_and_design/business_card/b3.jpg'
+import b1 from '../files/graphics_and_design/business_card/b1.jpg'
+import b2 from '../files/graphics_and_design/business_card/b2.jpg'
+import b3 from '../files/graphics_and_design/business_card/b3.jpg'
 
 //cantoon logo
-import c1 from '../assets/files/graphics_and_design/cantoon_logo/c1.jpg'
-import c2 from '../assets/files/graphics_and_design/cantoon_logo/c2.jpg'
-import c3 from '../assets/files/graphics_and_design/cantoon_logo/c3.jpg'
-import c4 from '../assets/files/graphics_and_design/cantoon_logo/c4.jpg'
-import c5 from '../assets/files/graphics_and_design/cantoon_logo/c5.jpg'
+import c1 from '../files/graphics_and_design/cantoon_logo/c1.jpg'
+import c2 from '../files/graphics_and_design/cantoon_logo/c2.jpg'
+import c3 from '../files/graphics_and_design/cantoon_logo/c3.jpg'
+import c4 from '../files/graphics_and_design/cantoon_logo/c4.jpg'
+import c5 from '../files/graphics_and_design/cantoon_logo/c5.jpg'
 
 //fliers
-import f1 from '../assets/files/graphics_and_design/fliers/f1.jpg'
-import f2 from '../assets/files/graphics_and_design/fliers/f2.jpg'
-import f3 from '../assets/files/graphics_and_design/fliers/f3.jpg'
-import f4 from '../assets/files/graphics_and_design/fliers/f4.jpg'
+import f1 from '../files/graphics_and_design/fliers/f1.jpg'
+import f2 from '../files/graphics_and_design/fliers/f2.jpg'
+import f3 from '../files/graphics_and_design/fliers/f3.jpg'
+import f4 from '../files/graphics_and_design/fliers/f4.jpg'
 
 //illustration
-import i1 from '../assets/files/graphics_and_design/illustration/i1.jpg'
-import i2 from '../assets/files/graphics_and_design/illustration/i2.jpg'
-import i3 from '../assets/files/graphics_and_design/illustration/i3.jpg'
-import i4 from '../assets/files/graphics_and_design/illustration/i4.jpg'
+import i1 from '../files/graphics_and_design/illustration/i1.jpg'
+import i2 from '../files/graphics_and_design/illustration/i2.jpg'
+import i3 from '../files/graphics_and_design/illustration/i3.jpg'
+import i4 from '../files/graphics_and_design/illustration/i4.jpg'
 
 //logo design
-import l1 from '../assets/files/graphics_and_design/logo_design/l1.jpg'
-import l2 from '../assets/files/graphics_and_design/logo_design/l2.jpg'
-import l3 from '../assets/files/graphics_and_design/logo_design/l3.jpg'
-import l4 from '../assets/files/graphics_and_design/logo_design/l4.jpg'
+import l1 from '../files/graphics_and_design/logo_design/l1.jpg'
+import l2 from '../files/graphics_and_design/logo_design/l2.jpg'
+import l3 from '../files/graphics_and_design/logo_design/l3.jpg'
+import l4 from '../files/graphics_and_design/logo_design/l4.jpg'
 
 
 

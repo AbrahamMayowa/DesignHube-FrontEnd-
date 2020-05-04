@@ -1,5 +1,6 @@
 import React from 'react'
-import building from '../assets/mainPage/building.svg'
+import building from '../mainPage/building.svg'
+//import b from '../../public/assets/mainPage/building.svg'
 import '../styles/building.css'
 
 

@@ -84,7 +84,7 @@ export default class App extends React.Component{
                 {width >= 700 ? <SecNonMobile /> : null}
 
                 <Switch>
-                    <Route path='/' exact component={Success} />
+                    <Route path='/' exact component={HomeScreen} />
                     <Route path='/graphics-design' component={GraphicsDesign}/>
                     
                     <Route path='/programming-tech' component={ProgrammingTech} />

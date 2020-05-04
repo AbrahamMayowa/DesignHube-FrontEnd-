@@ -1,12 +1,12 @@
 
 import React from 'react'
 import SlideItem from './SlideItem'
-import Code from '../assets/mainPage/code.jpg'
-import DataEntry from '../assets/mainPage/data-entry.jpg'
-import Design from '../assets/mainPage/design.jpg'
-import Illustration from '../assets/mainPage/illustra.jpg'
-import Seo from '../assets/mainPage/seo.jpg'
-import SocialMedia from '../assets/mainPage/social-media.jpg'
+import Code from '../mainPage/code.jpg'
+import DataEntry from '../mainPage/data-entry.jpg'
+import Design from '../mainPage/design.jpg'
+import Illustration from '../mainPage/illustra.jpg'
+import Seo from '../mainPage/seo.jpg'
+import SocialMedia from '../mainPage/social-media.jpg'
 
 
 
