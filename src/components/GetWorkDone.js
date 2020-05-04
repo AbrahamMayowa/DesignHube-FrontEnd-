@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkingTeam from '../mainPage/working-team.jpg'
+import WorkingTeam from '../assets/mainPage/working-team.jpg'
 import '../styles/getWorkDone.css'
 const GetWorkDone =()=>{
     return(

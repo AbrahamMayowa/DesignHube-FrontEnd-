@@ -1,5 +1,5 @@
 import React from 'react'
-import success from '../mainPage/success.svg'
+import success from '../assets/mainPage/success.svg'
 import '../styles/success.css'
 
 

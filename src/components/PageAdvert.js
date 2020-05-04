@@ -2,7 +2,7 @@ import React, {useState}from 'react'
 import '../styles/advert.css'
 //import product from '../assets/mainPage/product.svg'
 
-import product from '../mainPage/product.svg'
+import product from '../assets/mainPage/product.svg'
 import SearchIcon from '@material-ui/icons/Search'
 
 const PageAdvert =({handleSearchSubmit})=>{
