@@ -23,8 +23,9 @@ export default class HomeScreen extends React.Component{
     services = {serviceData: [
         {serviceImage: Code, serviceName: 'Programming', index: 0},
         {serviceImage: SocialMedia, serviceName: 'Social Media Manager', index: 1},
-        {serviceImage: Design, serviceName: 'Logo Design', index: 2},
-        {serviceImage: DataEntry, serviceName: 'Data Entry', index: 3},
+       
+        {serviceImage: DataEntry, serviceName: 'Data Entry', index: 2},
+        {serviceImage: Design, serviceName: 'Logo Design', index: 3},
         {serviceImage: Seo, serviceName: 'Search Engine Optimization', index: 4},
         {serviceImage: Illustration, serviceName: 'Illustration', index: 5}
     ]}
@@ -70,7 +71,7 @@ export default class HomeScreen extends React.Component{
                 <div className='slide-component' style={{width: '100vw'}}>
                 
              
-                    {service.index !== 1 ? (<div className='slide-icon-left' onClick={this.prevServices}>
+                    {service.index >= 0.5 ? (<div className='slide-icon-left' onClick={this.prevServices}>
                         <i className="fas fa-arrow-left icon-size"></i></div>) : null}
                   
 

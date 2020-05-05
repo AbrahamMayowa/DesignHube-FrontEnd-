@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 90%;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .work-done .header-text{
@@ -75,10 +75,17 @@
 
 .work-list .item-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-size: 13px
 }
 
 @media only screen and (max-width: 700px) {
+
+    .work-done{
+        margin-bottom: 20px;
+    }
+.work-done .header-text{
+    font-size: 15px;
+}
     .list-image{
         flex-direction: column;
       
@@ -96,6 +103,19 @@
         margin-bottom: 18px;
     }
 
+    .work-item .sub-header{
+        font-size: 12px;
+     
+    }
+
+    .icon-container{
+        width: 15px;
+        height: 15px;
+    }
+    .mark-icon{
+        font-size: 5px;
+    }
+
   
 
   .work-done-image{
@@ -104,6 +124,10 @@
 
   .work-list{
       order: 2;
+  }
+
+  .work-list .item-text{
+      font-size: 11px;
   }
 }
 

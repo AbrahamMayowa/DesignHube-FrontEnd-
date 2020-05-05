@@ -31,7 +31,7 @@ const GetWorkDone =()=>{
                             <span className='icon-container'>
                                 <span class="fas fa-check mark-icon"></span>
                             </span>
-                            <span className='sub-header'>Provide quality service at affordable price</span>
+                            <span className='sub-header'>Quality service at affordable price</span>
                         </div>
                         <div className='item-text'>
                         <p>It our mission to provide quality service at unimaginable price. We adopt efficient process that reduce our expenses.</p>

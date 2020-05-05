@@ -24,7 +24,7 @@ const ContactForm =(props)=>{
         setLoading(true)
         setFormSubmitted({...formSubmitted, error: ''})
         try{
-        const response = await fetch('http://localhost:5000/api/contact', {
+        const response = await fetch('https://young-bayou-40472.herokuapp.com/api/contact', {
             headers: {
                 'Content-Type': 'application/json'
             },

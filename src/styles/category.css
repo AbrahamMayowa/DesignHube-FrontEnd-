@@ -9,6 +9,7 @@
 }
 
 .name-descript-text{
+    margin-top: 12px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -42,7 +43,15 @@
 
 @media only screen and (max-width: 700px) {
     .name-descript-text{
-        margin-top: 70px;
+        margin-top: 20px;
+    }
+
+    .name-descript-text .descript-text{
+        font-size: 12px;
+    }
+
+    .name-descript-text .name{
+        font-size: 15px;
     }
     .sub-list{
         width: 100%;

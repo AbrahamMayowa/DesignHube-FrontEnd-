@@ -82,7 +82,7 @@ input::placeholder{
 
 .advert-text{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 800;
     width: 80%;
     text-align: center;
@@ -101,6 +101,7 @@ input::placeholder{
         position: static;
         margin-left: 25px;
         height: 100%;
+      
     }
     .advert-svg{
         display: flex;
@@ -111,8 +112,9 @@ input::placeholder{
         align-items: center;
     }
 
-   
-
+    .advert-text{
+        font-size: px;
+    }
 
 }
 

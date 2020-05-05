@@ -35,7 +35,7 @@ const NoneMobileHeader = ()=>{
 
                 <div className='service-contact'>
                     <a href='/contact' className='contact'>Contact</a>
-                    <a className='all-service' href='#service-link'>Services</a>
+                    <a className='all-service' href='/#service-link'>Services</a>
                 </div>
             </div>
         </div>

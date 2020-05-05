@@ -9,7 +9,7 @@ const MobileHeader = ({handleNavigation})=>{
   
           <i onClick={handleNavigation} class="fas fa-bars menu-icon"></i>
          
-          <div className='logo'>designHube</div>
+          <a href="/" className='logo'>designHube</a>
 
         </div>
     )

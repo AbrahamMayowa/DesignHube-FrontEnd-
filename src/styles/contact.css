@@ -68,12 +68,13 @@
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
-    height: 40px;
+    height: 50px;
     margin-bottom: 12px;
     border-radius: 5px;
-    background-color: rgb(241, 241, 241);
-    transition: border 300ms linear;
-    padding-left: 5px;
+    background-color: rgb(255, 253, 253);
+    transition: border 300ms;
+    padding-left: 8px;
+    border: 1px solid rgb(197, 192, 192);
 }
 
 .contact-form-control input:focus, textarea:focus{
@@ -123,7 +124,9 @@
 @media only screen and (max-width: 700px) {
     .form-wrapper{
         width: 85%;
-        margin-top: 70px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+
 
     }
 
