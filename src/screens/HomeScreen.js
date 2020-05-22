@@ -13,8 +13,10 @@ import Seo from '../assets/mainPage/seo.jpg'
 import SocialMedia from '../assets/mainPage/social-media.jpg'
 import GetWorkDone from '../components/GetWorkDone'
 import Services from '../components/Services'
-import CallToAction from '../components/CallToAction'
+
 import {Link} from 'react-router-dom'
+import ContactUs from '../components/ContactUs'
+import Testimony from '../components/Testimony'
 
 
 import '../styles/homeScreen.css'
@@ -51,10 +53,13 @@ export default class HomeScreen extends React.Component{
     render(){
 
         const homeStyle = {
+        
             width: '100vw',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'center'
+            alignItems: 'center',
+           
+            
         }
 
 
@@ -87,10 +92,14 @@ export default class HomeScreen extends React.Component{
                     </div>) : null}
                 
                     </div>
+                    <ContactUs />
                 <GetWorkDone />
+             
+        
                 <Services />
-                <CallToAction handlePush={this.handlePush} />
-
+               
+                <Testimony />
+            
             </div>
         )
     }

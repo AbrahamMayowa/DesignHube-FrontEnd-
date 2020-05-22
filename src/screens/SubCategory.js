@@ -61,6 +61,7 @@ const SubCategory = ()=>{
      return <PageLoader />
    }
     return (
+        <div className='sub-wrapper'>
         <div className='sub-category'>
             
             <div className='link-directory'>
@@ -75,7 +76,7 @@ const SubCategory = ()=>{
             </div>
 
             <div className='sub-category-header'>
-                <div className='sub-name'>{subCategoryData.realName}</div>
+                <div className='page-sub-name'>{subCategoryData.realName}</div>
                 <div className='sub-descript'>{itemData.subCategoryDescripText}</div>
             </div>
 
@@ -92,6 +93,8 @@ const SubCategory = ()=>{
                 </a>
             </div>
             <WorksItem pastWorksImages={itemData.pastWorksImages} startingPrice={itemData.startingPrice} />
+            </div>
+
             </div>
     )
 

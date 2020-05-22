@@ -81,7 +81,7 @@ export default class App extends React.Component{
 
                 <NavigationComponent handleNavigation={this.handleNavigation} navigationState={openNavigation} />
                 {width >= 700 ? <NoneMobileHeader /> : <MobileHeader handleNavigation={this.handleNavigation}/>}
-                {width >= 700 ? <SecNonMobile /> : null}
+        
 
                 <Switch>
                     <Route path='/' exact component={HomeScreen} />

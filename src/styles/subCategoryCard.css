@@ -25,11 +25,13 @@
     height: 100%;
 }
 .sub-card .sub-name{
+    width: 100%;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    border: 1px solid rgb(240, 240, 240);
 }
 
 @media only screen and (max-width: 700px) {

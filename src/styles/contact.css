@@ -26,9 +26,9 @@
     display: flex;
     border-bottom: 1px solid gray;
     height: 70px;
-    
+    color: white;
     align-items: center;
-    background-color: white;
+    background-color: #001f3f;
 }
 
 .contact-header .font-wrapper{
@@ -94,7 +94,7 @@
 
 .contact-form-control .form-submit{
     font-weight: 800;
-    background-color: #228B22;
+    background-color: #0074D9;
    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;

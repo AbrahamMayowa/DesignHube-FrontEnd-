@@ -25,6 +25,7 @@
     height: 80%;
     overflow: hidden;
     border-bottom: 1px solid gray;
+    background-color: rgb(94, 36, 36);
 }
 
 .work-image{
@@ -33,13 +34,14 @@
 }
 
 .works-starting-price{
+    background-color: white;
     display: flex;
     width: 98%;
     height: 20%;
     justify-content: flex-end;
     align-items: center;
     font-size: 12px;
-    color: rgb(71, 67, 67);
+    color: rgb(58, 18, 201);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

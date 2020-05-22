@@ -1,8 +1,17 @@
 .side-list{
-    width: 35%;
+    width: 25%;
+    border: 1px solid gray;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 12px;
 }
 
 .side-list .side-name{
+    color: #0074D9;
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 5px;

@@ -7,13 +7,14 @@ import Design from '../assets/mainPage/design.jpg'
 import Illustration from '../assets/mainPage/illustra.jpg'
 import Seo from '../assets/mainPage/seo.jpg'
 import SocialMedia from '../assets/mainPage/social-media.jpg'
-
+import '../styles/popularServices.css'
 
 
 const PopularServices=()=>{
     const popularStyle= {
         height: '500px',
-        width: '100vw'
+        width: '100vw',
+       
     }
     return(
         <div className='popular-service' style={popularStyle}>

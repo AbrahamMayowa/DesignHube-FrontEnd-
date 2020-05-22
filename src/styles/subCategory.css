@@ -1,12 +1,23 @@
+.sub-wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url('../assets/mainPage/one.svg');
+    background-position: center;
+}
+
 .sub-category{
-    width: 90vw;
+   width: 90vw;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     min-height: 90vh;
+   
 }
 
 .sub-category .link-directory{
+    
     display: flex;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,17 +36,17 @@
     text-decoration: underline;
 }
 
-.sub-name{
+.page-sub-name{
     font-size: 22px;
-    font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sub-descript{
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 4px;
-    color: gray;
+    color: #F012BE
 }
 
 .price-time-billing{

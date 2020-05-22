@@ -1,5 +1,5 @@
 .service{
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -9,9 +9,12 @@
 }
 
 .service .service-header{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
     font-size: 22px;
     font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .service-item-wrapper{
@@ -23,21 +26,48 @@
 }
 
 .service-item{
-    height: 100px;
+    height: 17vw;
+    width: 17vw;
+    border: 1px solid gray;
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     cursor: pointer;
     color: black;
-    transition: opacity 300ms ease-in-out;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 
-.service-item:hover{
-    opacity: 0.9;
+.item-one{
+  
+    background-image: url('../assets/mainPage/one.svg');
 }
+
+.item-two{
+
+    background-image: url('../assets/mainPage/two.svg');
+    
+}
+
+.item-three{
+ 
+    background-image: url('../assets/mainPage/three.svg');
+}
+
+.item-four{
+    background-image: url('../assets/mainPage/four.svg');
+ 
+}
+.item-five{
+    background-image: url('../assets/mainPage/five.svg');
+}
+
+
 
 .service-item .icon-font{
     font-size: 30px;
@@ -47,11 +77,12 @@
 .font-underline{
     border-bottom: 2px solid gray;
     width: 50px;
-    margin-top: -10px;
+    margin-top: 5px;
+    margin-bottom: 12px;
 }
 
 .service-item .service-text{
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,7 +90,8 @@
 
 @media only screen and (max-width: 700px) {
     .service-item{
-        margin-top: 18px;
+       width: 25vw;
+       height: 25vw;
     }
 
     .service{
@@ -68,18 +100,21 @@
     }
 
     .service .service-header{
-        font-size: 15px;
+        
     }
 
     .service-item .icon-font{
-        font-size: 22px;
+       font-size: 17px;
     }
 
     .font-underline{
-        width: 37px;
+        width: 30px;
+       
     }
 
     .service-item .service-text{
-        font-size: 11px;
+        font-size: 8.5px;
+        text-align: center;
+    
     }
 }

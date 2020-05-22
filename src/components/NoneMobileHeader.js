@@ -20,22 +20,14 @@ const NoneMobileHeader = ()=>{
                     designHube
                 
                 </a>
-
-
-                <div className='none-mobile-header-search'>
-                    
-                    <form onSubmit={handleSearchSubmit} className='form-control'>
-                    <span className='search-icon'>
-                    <SearchIcon style={{fontSize: 15}} />
-                    </span>
-                    <input type='text' className='input-search' name='search' placeholder='Find services' />
-                    <input type='submit' className='search-submit' value='search' onChange={(e=> setSearchInput(e.value))}/>
-                    </form>   
-                </div>
-
+                
                 <div className='service-contact'>
-                    <a href='/contact' className='contact'>Contact</a>
-                    <a className='all-service' href='/#service-link'>Services</a>
+                    <a href='/contact' className='service-list'>Contact</a>
+                    <a href='/graphics-design' className='service-list'>Graphics and Design</a>
+                <a href='/video-animation' className='service-list'>Video and Animation</a>
+                <a href='/music-audio' className='service-list'>Music and Audio</a>
+                <a href='/programming-tech' className='service-list'>Programming and Tech</a>
+                <a href='/branding-service' className='service-list'>Branding Services</a>
                 </div>
             </div>
         </div>

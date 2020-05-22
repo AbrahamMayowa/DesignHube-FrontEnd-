@@ -10,6 +10,7 @@ import b1 from '../assets/files/graphics_and_design/business_card/b1.jpg'
 import b2 from '../assets/files/graphics_and_design/business_card/b2.jpg'
 import b3 from '../assets/files/graphics_and_design/business_card/b3.jpg'
 
+
 //cantoon logo
 import c1 from '../assets/files/graphics_and_design/cantoon_logo/c1.jpg'
 import c2 from '../assets/files/graphics_and_design/cantoon_logo/c2.jpg'
@@ -34,6 +35,9 @@ import l1 from '../assets/files/graphics_and_design/logo_design/l1.jpg'
 import l2 from '../assets/files/graphics_and_design/logo_design/l2.jpg'
 import l3 from '../assets/files/graphics_and_design/logo_design/l3.jpg'
 import l4 from '../assets/files/graphics_and_design/logo_design/l4.jpg'
+
+//youtube intro and outros
+import y1 from '../assets/mainPage/y1.png'
 
 
 
@@ -132,6 +136,19 @@ const GraphicsDesign =()=>{
                     deliveryTime: {from: '24hrs', to: '94hrs'},
                     postWorkImages: [i1, i2, i3, i4]
 
+                }
+            },
+
+            {
+                subName: 'YouTube Intro and Outros',
+                urlParams: 'youtube-intro',
+                subImage: y1,
+                subData: {
+                    categoryName: 'Graphics Design',
+                    subCategoryDescripText: 'Stunning youtube intro and outro to boost followers',
+                    startingPrice: '$5',
+                    deliveryTime: {from: '24hrs', to: '94hrs'},
+                    postWorkImages: [y1]
                 }
             }
         ]
