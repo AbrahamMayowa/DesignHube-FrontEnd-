@@ -20,7 +20,7 @@ const ContactForm =(props)=>{
 
 
 
-    const handleFormSubmission = async (clientName, specification, serviceWanted, budget, email)=>{
+    const handleFormSubmission = async (clientName, specification, serviceWanted, budget, email, socialMedia)=>{
         setLoading(true)
         setFormSubmitted({...formSubmitted, error: ''})
         try{
@@ -34,7 +34,9 @@ const ContactForm =(props)=>{
                 email,
                 serviceWanted,
                 budget,
-                specification
+                specification,
+                socialMedia
+
             })
         })
         if(!response.ok){
