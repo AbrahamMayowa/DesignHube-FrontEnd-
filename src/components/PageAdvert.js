@@ -7,7 +7,7 @@ const PageAdvert =()=>{
         <div className='advert'>
             
                 <div className='advert-text'>
-                    <p className='main-text'>Services Provider that meets expectations.</p>
+                    <p className='main-text'>Service Provider that meets expectations.</p>
                     <a href='/contact' className='sec-text'>Contact Us</a>
         
                 </div>

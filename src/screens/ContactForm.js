@@ -63,6 +63,8 @@ const ContactForm =(props)=>{
             errors.email = 'Email is required to contact you'
         }else if(!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)){
             errors.email = 'Provide a valid email account to contact you'
+        }else if(!values.socialMedia){
+            errors.socialMedia = 'One social media account is required to contact you'
         }else if(!values.clientName){
             errors.clientName = 'Name is required'
         }else if(!values.serviceWanted){
@@ -84,11 +86,12 @@ const ContactForm =(props)=>{
                 serviceWanted: '',
                 specification: '',
                 budget: '',
+                socialMedia: ''
             }}
             validate={validate}
             onSubmit={values => {
-                handleFormSubmission(values.clientName, values.specification, values.serviceWanted, values.budget, values.email)
-                //alert(JSON.stringify(values, null, 2));
+                handleFormSubmission(values.clientName, values.specification, values.serviceWanted, values.budget, values.email, values.socialMedia)
+           
             }}
         >
             {props =>(
@@ -132,6 +135,20 @@ const ContactForm =(props)=>{
                         <div className='form-error'>
                             {props.touched.email && props.errors.email ? (
                                 <span className='error-text'>{props.errors.email}</span>
+                            ): null}
+                        </div>
+
+                        <input
+                            id='socialMedia'
+                            name='socialMedia'
+                            type='text'
+                            placeholder='Social media handle name'
+                            onChange={props.handleChange}
+                            onBlur={props.handleBlur}
+                        />
+                         <div className='form-error'>
+                            {props.touched.socialMedia && props.errors.socialMedia ? (
+                                <span className='error-text'>{props.errors.socialMedia}</span>
                             ): null}
                         </div>
 

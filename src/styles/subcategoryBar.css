@@ -1,13 +1,16 @@
 .side-list{
-    width: 25%;
-    border: 1px solid gray;
-   
+    width: 20%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
     margin-bottom: 12px;
+    background-color: #fff;
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 4px 0 rgba(0,0,0,.08);
 }
 
 .side-list .side-name{
@@ -19,7 +22,8 @@
 }
 
 .bar-list{
-    color: gray;
+    color: #4444;
+    font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
